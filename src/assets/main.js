@@ -19,8 +19,9 @@ var $badges = $("#badges");
 
 function addCourses(courses){
 	courses.forEach(function(course){
+
 		var $course = $("<div />", {
-			"class":"course"
+			"class": "course"
 		}).appendTo($badges);
 
 		$("<h3 />", {
